@@ -1,2 +1,2 @@
-# HTML ASSIGNMENT
-https://kaleidoscopic-medovik-66fdd3.netlify.app/
+# HTML- ASSIGNMENTS
+https://html-assignments-smit-sa.netlify.app/
