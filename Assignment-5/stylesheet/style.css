@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    
+}
+
+.flex-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    width: 30%;
+    margin-top: 25px;
+}
+
+.flex-item iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 1rem;
+}
