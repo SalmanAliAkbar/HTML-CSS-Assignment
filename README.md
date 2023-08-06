@@ -1,2 +1,2 @@
 # HTML- ASSIGNMENTS
-https://html-assignments-smit-sa.netlify.app/
+https://html-assignments-sa.netlify.app/
