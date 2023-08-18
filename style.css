@@ -17,7 +17,10 @@ body {
 .page-content {
     padding: 30px;
 }
-
+.logo{
+    margin-left: 950px;
+    
+}
 #portfolio {
     text-align: center;
     color: #a2d2ff;
