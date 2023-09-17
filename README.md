@@ -1,2 +1,2 @@
 # HTML- ASSIGNMENTS
-https://assignments-sa-html.netlify.app/
+https://assignments-sayalani-sa.netlify.app/
