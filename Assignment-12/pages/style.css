@@ -1,0 +1,796 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    width: 260px;
+    height: auto;
+}
+
+.header-logo img {
+    width: auto;
+    height: auto;
+}
+
+.nav-bar {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.links {
+    color: #007E85;
+    text-decoration: underline;
+}
+.sign-in{
+    width: 18%;
+    height: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up {
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007E85;
+    font-weight: 600;
+}
+
+.log-in{
+    width: 60%;
+    height: 50px;
+    background-color: #007E85;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.slide{
+    width: 100%;
+    height: 720px;
+    background-image: url("../images/Rectangle\ 1548.png");
+    background-size: cover; 
+    position: relative; 
+}
+.headlines{
+    width: 30%;
+    height: 350px;
+    position: absolute;
+    left: 15%;
+    top: 25%;    
+}
+.heading-01{
+    width: 100%;
+    height: 150px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 80px;
+    color: black;
+}
+.heading-02{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+}
+.head-but{
+    width: 95%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.Quote-now{
+    width: 50%;
+    height: 100%;
+    background-color: #007E85;
+    border-radius: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.learn-more{
+    width: 40%;
+    height: 100%;
+    border: 2px solid #007E85;
+    border-radius: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.slide-form{
+    width: 330px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    position: absolute;
+    right: 17%;
+    top: 5%;
+}
+.slide-form h2{
+    text-align: center;
+}
+.label{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+input{
+    border: none;
+}
+.L2{
+    border: 1px solid #e2dbdb;
+    padding-left: 30px;
+    color: gray;
+}
+.appoint-but{
+    width: 100%;
+    height: 50px;
+    background-color: #007E85;
+    border-radius: 5px;
+    padding: 15px 40px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.main-content{
+    width: 100%;
+    height: auto;
+    background-color: #ECECEC;
+    padding: 50px 130px;
+}
+.find-doctor{
+    width: 100%;
+    height: 190px;
+    background-color: white;
+    border-radius: 16px;
+    background: #FAFAFA;
+    padding: 20px;
+}
+.finds{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search{
+    width: 20%;
+    height: 60%;
+    border: 2px solid #007E85;
+    padding: 15px;
+    border-radius: 5px;   
+}
+.available{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.avail{
+    width: 63px;
+    height: 33px;
+    background-image: url("../images/Group\ 512778.png");
+    background-size: content;
+    background-repeat: no-repeat;
+}
+.search-but{
+    width: 15%;
+    height: 60%;
+    background-color: #007E85;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heads{
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.service-we-provide{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.service-we-provide h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #007E85;
+}
+.cards{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 32%;
+    height: 95%;
+    background-color: #FAFAFA;
+    border-radius: 24px;
+    padding: 15px;
+}
+.card img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+.treatments{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+}
+.treatments h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #007E85;
+}
+.treatments p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.learns{
+    font-weight: 700;
+    color: #007E85;
+}
+.cards-2{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-2{
+    width: 28%;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+}
+.card-2 img{
+    width: 50%;
+    height: 20px;
+}
+.card-2 p{
+    font-weight: 600;
+    color: #737373;
+}
+.doctors{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+}
+.doctors img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.subscribe{
+    width: 100%;
+    height: 90px;
+    border: 1px solid black;
+}
+
+/* footer starts here */
+
+.footer {
+    width: 100%;
+    height: 250px;
+    padding: 25px 50px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #007E85;
+    display: flex;
+    justify-content: space-between;
+}
+
+.healthcare-footer {
+    width: 30%;
+    height: auto;
+    font-weight: 200;
+}
+
+.healthcare-footer img {
+    width: 70%;
+    padding-bottom: 10px;
+}
+
+.healthcare-items {
+    width: 15%;
+    height: auto;
+}
+
+.healthcare-items p {
+    color: #ffffff;
+    font-size: 14px;
+    padding-bottom: 25px;
+    font-weight: 600;
+}
+
+.healthcare-items ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.healthcare-items ul li {
+    list-style: none;
+    font-weight: 200;
+}
+.contact-us{
+    width: 100%;
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.get-in-touch{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+
+}
+.get-in-touch h3{
+    font-size: 22px;
+    text-align: center;
+
+}
+.get-in-touch h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: center;
+    color: #333333;
+    text-align: center;
+}
+.get-in-touch p{
+    font-size: 24px;
+    color: #555555;
+}
+
+
+.box {
+    width: 30%;
+    height: 100%;
+}
+
+.box img {
+    width: auto;
+    height: 100%;
+}
+.box1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.F_name{
+    width: 45%;
+    height: 90%;
+    padding: 10px;
+    
+}
+.F_name p{
+    font-size: 20px;
+}
+
+.F_name input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #ececec;
+    border: 2px solid #007E85;
+    border-radius: 12px;
+    margin-top: 3px;
+}
+.topic{
+    width: 95%;
+    height: 90%;
+    padding: 10px;
+}
+.topic input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #ececec;
+    border: 2px solid #007E85;
+    border-radius: 13px;
+    margin-top: 3px;
+}
+.message{
+    width: 95%;
+    height: 90%;
+    padding: 10px;
+}
+.message input{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    background-color: #ececec;
+    border: 2px solid #007E85;
+    border-radius: 13px;
+    margin-top: 3px;
+}
+.box2{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.submitss-but{
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #007E85;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* first */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar starts here */
+
+.container {
+    background-color: #ECECEC;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    padding: 0 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* left part of navbar */
+
+.nav-brand {
+    width: auto;
+    height: 50px;
+}
+
+/* center part of navbar */
+
+.nav-items {
+    color: #000000;
+}
+
+.nav-items a {
+    text-decoration: none;
+}
+
+.services-nav {
+    color: #000000;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+/* rigth part of navbar */
+
+.nav-signup {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-signup button {
+    background-color: #007E85;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: transparent;
+}
+
+.nav-signup button a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.active {
+    color: #007E85;
+}
+
+/* hero section starts here */
+
+.hero-section {
+    width: 100%;
+    height: 500px;
+    padding: 0 50px;
+    display: flex;
+}
+
+.division {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+/* hero image part */
+
+.hero-image img {
+    height: 85%;
+    width: auto;
+}
+
+.hero-image {
+    background-image: url("../images/Vector.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 64% auto;
+}
+
+/* hero text part */
+
+.hero-text h1 {
+    color: #333333;
+    font-size: 32.5px;
+    font-weight: 600;
+}
+
+.healthcare {
+    color: #007E85;
+}
+
+.brighter_healthy {
+    color: #6EAB36;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-text-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text-buttons button {
+    background-color: #007E85;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: transparent;
+}
+
+.hero-text-buttons button a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.play-button {
+    padding: 8px 14px;
+    background-color: #007E85;
+    border-radius: 50%;
+}
+
+.play-button i {
+    color: #ffffff;
+}
+
+/* find a doctor */
+
+.find_a_doctor {
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin: 50px 0;
+    padding: 25px 25px;
+    border-radius: 16px;
+    background-color: #FAFAFA;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.find_a_doctor h2 {
+    font-size: 27.5px;
+    font-weight: 600;
+}
+
+.doc_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doc_info {
+    display: flex;
+    gap: 20px;
+}
+
+.doc_info input {
+    padding: 16px 8px;
+    border-radius: 8px;
+    border: 1px solid #007E85;
+}
+
+.doc_availability p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.doc_availability i {
+    font-size: 1.5rem;
+    color: #007E85;
+}
+
+.doc_search button {
+    background-color: #007E85;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: transparent;
+}
+
+.doc_search button a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* reasons to choose us */
+
+.reason_to_choose_us {
+    width: 100%;
+    height: 400px;
+    margin: 50px 0;
+    padding: 0 50px;
+    display: flex;
+}
+
+.reason_to_choose_us_image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.reason_to_choose_us_image img {
+    width: 75%;
+    height: auto;
+}
+
+.reason_to_choose_us_text {
+    width: 50%;
+    height: 100%;
+    padding: 0 75px;
+}
+
+.reason_to_choose_us_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #007E85;
+}
+
+.reason_to_choose_us_text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.reason_to_choose_us_button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.reason_to_choose_us_button button {
+    background-color: #007E85;
+    padding: 12.5px 25px;
+    border-radius: 50px;
+    border: transparent;
+}
+
+.reason_to_choose_us_button button a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* services we provide */
+
+.services {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.services_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #007E85;
+}
+.services_text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.services_box {
+    width: 100%;
+    height: 400px;
+    margin: 50px 0;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    width: 30%;
+    height: 100%;
+}
+
+.box img {
+    width: auto;
+    height: 100%;
+}

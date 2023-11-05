@@ -185,7 +185,7 @@ p{
     align-items: center;
 }
 
-.footer-img img {
+.footer.logo {
     width: 100px;
     height: auto;
 }
